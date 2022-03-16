@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'base.apps.BaseConfig',  # this is our app from python3 manage.py startapp base, apps.py
 ]
 
 MIDDLEWARE = [
